@@ -1,0 +1,4 @@
+name: Open Source by Eric Kolotyluk
+markdown: redcarpet
+pygments: true
+exclude: [README.md,LICENSE]
