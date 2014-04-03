@@ -4,21 +4,21 @@ title: Open Source By Eric Kolotyluk
 ---
 
 <div id="projects">
-  <h1>Projects</h1>
-    <p>This site is still under construction!</p>
-    <p>I always use to say that I would like to be independently wealthy so I could
-    write open source software. Well, now I figure there is no point in waiting that long,
-    so I might as well just start doing it.</p>
-  <ulc lass="posts">
-    <li><a href="http://kolotyluk.github.io/java-file-utilities">Java File Utilities</a></li>
-    <li><a href="http://kolotyluk.github.io/csharp-windows-elevate">Windows Elevate</a></li>
-  </ul>
-</div>
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <h1>Java File Utilities</h1>
+  <a href="http://kolotyluk.github.io/java-file-utilities">Maven Site</a>
+  <p>These are some utilities for file and file system handling.</p>
+  <h2>Files.contentEquals(file1, file2)</h2>
+  <p>
+    While Apache already does this, this one is currently faster. By using Memory Mapped I/O it is about 4 times
+    faster than the java.nio buffered I/O used by Apache.
+  </p>
+  <p>
+    This project was inspired by another project I started many years ago, Find Duplicate Files, where I was
+    creating a utlity to help me manage all my media files. Whey you are dealing with photos, music, and videos,
+    often times you get duplicates of the same file. At the heart of finding duplicate files you ultimately need
+    to compare files byte-by-byte to verify they have equal content.
+  </p>
+  <p>
+    Experimentation showed that using Memory Mapped Files had the best performance.
+  </p>
 </div>
