@@ -19,6 +19,25 @@ title: Open Source By Eric Kolotyluk
     to compare files byte-by-byte to verify they have equal content.
   </p>
   <p>
-    Experimentation showed that using Memory Mapped Files had the best performance.
+    Experimentation showed that using Memory Mapped Files had the best performance. This is especially true for
+    large files, such as music and video files. It also took some experimentation to determine how to compare
+    memory mapped files as you do not want to load all the file contents at once. Basically, when you map in
+    the files, you then want to do a byte-by-byte comparison of the files. Each time your code crosses a page
+    boundary, the operating system will fetch a new page from the file system. Operating Systems try to optimize
+    page-fault handling as much as possible, and while the initial setup may be a little costly, in the long run
+    the complete comparison of two files this way is demonstrably the fastest possible.
+  </p>
+  <p>
+    Maybe some day Apache and others will just copy my code, as they would not need to change their APIs to do so.
+    The little gotcha I learned along the way was that when you are done with the memory maps, there is no easy way
+    to unmap them. Not unmapping them leaves them locked, so you can't delete them or modify them while they are locked.
+    Side effects such as this are very back, so I had to hack together some code from various sources to do this.
+  </p>
+  <h2>Files.cleanDirectByteBuffer(byteBuffer)</h2>
+  <p>
+    This code uses some reflection to access the lowlevel APIs not available publically. In my opinion, the jaba.nio
+    APIs for memory mapped files are incomplete, and that makes it a design defect. Originally I thought about leaving
+    this as s private method, but I figured other people might benefit from this solution as well--at least until
+    the Java NIO team get their act together.
   </p>
 </div>
