@@ -30,24 +30,28 @@ OMG, why did it take so long to come up with something as beautiful and elegant 
 Over the years I have used Perforce (Subversion), CVS, and others. Git is like a gift from
 heaven in how much more simple and elegant it is to use.
 
-GitHub is really more like the cultural watering hole for open source developers.
+GitHub is really more like the cultural watering hole for open source developers. While I have
+not really collaborated in projects or discussions yet, I am well aware of how many other
+people are participating there.
 
 ## 1.1 Education
 
 There is an abundance of great educational material on Git, but I recommend starting at the
 [GitHub Training Site](http://training.github.com) or just firing up [YouTube](https://www.youtube.com)
-and searching for 'git' and 'github'.
+and searching for 'git' and 'github'. Of course there is the ever popular [Pro Git](http://git-scm.com/book)
+book too.
 
 ## 1.2 Tips and Tricks
 
 After learning the basics of git and github, you probably want to learn about
-[GitHub Pages](https://pages.github.com), both your main personal page like
-[http://kolotyluk.github.io](http://kolotyluk.github.io) and your project pages, like
-[[http://kolotyluk.github.io/java-file-utilities](http://kolotyluk.github.io/java-file-utilities)
+[GitHub Pages](https://pages.github.com), both your main personal page such as
+[http://kolotyluk.github.io](http://kolotyluk.github.io) and your project pages, such as
+[http://kolotyluk.github.io/java-file-utilities](http://kolotyluk.github.io/java-file-utilities)
 
-Another important aspect of GitHub Pages is that behind them there is a [Jekyll Engine](http://jekyllrb.com),
-but don't make the same mistake I made and think that you need to install Jekyll anywhere;
-you just need to put the files there and GitHub will automatically start building your web sites.
+Another important aspect of GitHub Pages is that behind them there is a [Jekyll](http://jekyllrb.com)
+Engine, but don't make the same mistake I made and think that you need to install Jekyll anywhere;
+you just need to put the files in your repository and GitHub will automatically start building
+your web sites.
 
 # 2 Maven
 
