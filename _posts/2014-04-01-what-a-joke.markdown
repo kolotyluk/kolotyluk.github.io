@@ -12,8 +12,8 @@ myself seriously at being any good at this. One the other hand, I have been writ
 12 years old, in 1970, so this is more like an old dog learning new tricks.
 
 While I regularly use such drugs as YouTube, Kahn Acadamy, Google, FaceBook, StackTrace, etc.,
-I have not found any good primer on getting into Open Source Software (OSS) yet. In a way, this
-blog will be my primer on what I have learned.
+I have not found any good primer on getting into [Open Source Software](http://opensource.org)
+(OSS) yet. In a way, this blog will be my primer on what I have learned.
 
 Without going into the history of OSS, I will start with the present, on things I have learned:
 
@@ -24,7 +24,7 @@ Without going into the history of OSS, I will start with the present, on things 
 I could go on, but those are the three basics I have found to adopting an open attitude towards
 software development.
 
-# Git
+# 1 Git
 
 OMG, why did it take so long to come up with something as beautiful and elegant as Git.
 Over the years I have used Perforce (Subversion), CVS, and others. Git is like a gift from
@@ -32,7 +32,24 @@ heaven in how much more simple and elegant it is to use.
 
 GitHub is really more like the cultural watering hole for open source developers.
 
-# Maven
+## 1.1 Education
+
+There is an abundance of great educational material on Git, but I recommend starting at the
+[GitHub Training Site](http://training.github.com) or just firing up [YouTube](https://www.youtube.com)
+and searching for 'git' and 'github'.
+
+## 1.2 Tips and Tricks
+
+After learning the basics of git and github, you probably want to learn about
+[GitHub Pages](https://pages.github.com), both your main personal page like
+[http://kolotyluk.github.io](http://kolotyluk.github.io) and your project pages, like
+[[http://kolotyluk.github.io/java-file-utilities](http://kolotyluk.github.io/java-file-utilities)
+
+Another important aspect of GitHub Pages is that behind them there is a [Jekyll Engine](http://jekyllrb.com),
+but don't make the same mistake I made and think that you need to install Jekyll anywhere;
+you just need to put the files there and GitHub will automatically start building your web sites.
+
+# 2 Maven
 
 For years I had heard about Maven, and was often put off by the Maven zealots I percieved
 everywhere. Finally, one day I decided I was going to stop ignoring Maven and just try using
@@ -42,17 +59,35 @@ The most important thing to know about Maven is that if you try to do something 
 the 'Maven Way' you will hurt yourself. But, if you give yourself over, heart and soul, to
 Maven, your universe will be expanded immensely.
 
-## Education
+## 2.1 Education
 
 There are many ways to learn Maven, but in all my experience it is best to start with the
-Grand Guru of Maven: [Russel Gold - Getting Started With Apache Maven](http://www.packtpub.com/getting-started-with-apache-maven/video)
+Grand Guru of Maven:
+[Russel Gold - Getting Started With Apache Maven](http://www.packtpub.com/getting-started-with-apache-maven/video)
 
 From there, you should go to the [Sonatype Books](http://www.sonatype.com/resources/books)
+and time and money permitting, take their courses on Maven and Nexus.
 
-After all that you will finally be ready for [Raw Maven](http://maven.apache.org)
+After all that you will finally be ready for [Raw Maven](http://maven.apache.org) and the
+[Maven-Users](mailto:users@maven.apache.org) mailing list.
 
-# StackOverflow
+I cannot stress enough how important it is to not hurt yourself trying to understand Maven.
+I went through a lot of needless pain and suffering because I was trying to do things,
+using enourmously powerful tools, without proper grounding and appreciation for what I was
+actually trying to do.
+
+# 3 StackOverflow
 
 If you are trying to solve software development issues, this seems to be the best place to
-hangout and vistit regularly. All too ofent on Google searches, my answsers come up on
-StackOverflow. 
+hangout and vistit regularly. All too often on Google searches, my answsers come up on
+StackOverflow.
+
+## 3.1 Tips and Trick
+
+I am still new to StackOverflow, but one important tip is: if you ask a question, make sure
+it gets answered, for the benefit of everyone else who ends up there too. In particular,
+if you solve the problem, then post your answer.
+
+Another important tip is, alway try to be clear in your questions and answers. As amazing as
+StackOverflow is, I am often dismayed by dialogs that are hard to fathom because people seem
+decend into terse and abstruse conversations about things.
