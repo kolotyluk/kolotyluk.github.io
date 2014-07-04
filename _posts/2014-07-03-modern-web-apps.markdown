@@ -25,16 +25,21 @@ Java EE, JSP, etc. The Java apps generally performed well, but the start-up was 
 The HTML apps suffered from both slow and unpredictable start-up, as well as operation.
 
 A decade and a half later I am learning to use the current generation of Single Page Apps,
-or SPAs, using (Ember)[http://emberjs.com], and I get this feeling of deja vu. Aside from
-these new apps starting up fast, and performing with crisp responsiveness, the principle is
-pretty much the same: load up a massive amount of JavaScript that ultimately renders the final
-HTML on the client side instead of the server side.
+or SPAs, using Ember, and I get this feeling of deja vu. Aside from these new apps starting
+up fast, and performing with crisp responsiveness, the principle is pretty much the same:
+load up a massive amount of JavaScript that ultimately renders the final HTML on the client
+side instead of the server side.
 
 Fortunately, it is much easier to build effective web apps that do not degenerate into a
 rat's nest of spagetti code:
-1. Ember adds Object Oriented features to JavaScript
-2. (Require)[http://www.requirejs.org] lets you modularize your code similar to Java import
-statements.
-3. (WebJars)[http://www.webjars.org] further improves modularity and collaboration via
-aritfact repositories.
 
+1. [Ember](http://emberjs.com) adds Object Oriented features to JavaScript, as well as many
+   other features for general programming and UI implementation.
+2. [Require](http://www.requirejs.org) lets you modularize your code similar to Java import
+  statements.
+3. [WebJars](http://www.webjars.org) further improves modularity and collaboration via
+   aritfact repositories.
+
+Of course, no matter how wonderful the platform, APIs, or language, it is always possible
+to write crappy, unreadable code; but at least with the right tools and dicipline, we can
+all do a better job.
