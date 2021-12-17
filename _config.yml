@@ -1,4 +1,4 @@
-name: Open Source by Eric Kolotyluk
-markdown: redcarpet
-pygments: true
+name: GitHb Pages for Eric Kolotyluk
+# markdown: redcarpet
+# pygments: true
 # exclude: [README.md]
