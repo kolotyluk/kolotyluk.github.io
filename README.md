@@ -1,8 +1,7 @@
-kolotyluk.github.io
-===================
+# GitHub Pages for Eric Kolotyluk
 
-<<<<<<< HEAD
-Public Web Site
-=======
-GitHub Pages Personal Repository
->>>>>>> 1019324bb2e7783ac59622ecb1f7a07a5316e2cc
+Programming since 1970 in a Computer Mathematics class in Grade 8, I have had a love/hate relationship with
+computers, computer technology, and technology in general. Indeed, the more experience I get, the more
+opinions I get, but like wave physics, sometimes those opinions reinforce, and other times those opinions
+cancel out.
+
