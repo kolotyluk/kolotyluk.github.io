@@ -1,5 +1,10 @@
 # GitHub Pages for Eric Kolotyluk
 
+<!--
+    Remember, that after pushing changes back to GitHub, it can take a while for the Jekyll build
+    to complete and render everything.
+-->
+
 Programming since 1970 in a Computer Mathematics class in Grade 8, I have had a love/hate relationship with
 computers, computer technology, and technology in general. Indeed, the more experience I get, the more
 opinions I get, but like wave physics, sometimes those opinions reinforce, and other times those opinions
