@@ -6,6 +6,8 @@
 -->
 
 [Assembly Line]: https://en.wikipedia.org/wiki/Assembly_line
+[Echo Chamber]: https://en.wikipedia.org/wiki/Echo_chamber_(media)
+[Elon Musk Things Every Child Should Learn About These 50 Cognitive Biases]: https://www.inc.com/jessica-stillman/elon-musk-cognitive-biases.html
 [Industrial Revolution]: https://en.wikipedia.org/wiki/Industrial_Revolution
 [Joel on Software]: https://books.google.ca/books?id=5qx2S47hnnEC
 [Joel Spolsky]: https://en.wikipedia.org/wiki/Joel_Spolsky
@@ -37,6 +39,17 @@ I share my opinions.
 - [Philosophy of Domain Driven Design](opinions/DDD%20Philosophy.md)
   - Not what you think... this is more about how I personally fit DDD into the metaphysics, knowledge,
     and other ideas in Philosophy.
+
+## Random Thoughts
+
+### Cognitive Bias
+
+In "[Elon Musk Things Every Child Should Learn About These 50 Cognitive Biases]" there is the longest list of
+Cognitive Biases I have ever seen; biases we are all susceptible to. Sometimes, increasingly actually, people
+exploit these biases for propaganda, use them to exploit other people, generally to exploit others into acting
+against their own best interests. In the worst cases, communities form an [Echo Chamber] to amplify these biases
+and other deceptions. However, there also exist some people who value reality, who value understanding
+reality, and feel it is better to utilize reality than to deny it.
 
 # Projects
 

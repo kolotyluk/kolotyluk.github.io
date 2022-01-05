@@ -3,6 +3,7 @@
 [Behavior-Driven Development]: https://en.wikipedia.org/wiki/Behavior-driven_development
 [Cucumber]: https://en.wikipedia.org/wiki/Cucumber_(software)
 [Cucumber Documentation]: https://cucumber.io/docs/cucumber
+[Curse of Knowledge]: https://en.wikipedia.org/wiki/Curse_of_knowledge
 [Gherkin]: https://cucumber.io/docs/gherkin/reference
 [loom-lab]: https://github.com/kolotyluk/loom-lab
 [Road Rash]: https://www.merriam-webster.com/dictionary/road%20rash
@@ -16,13 +17,16 @@ leading to <a href="https://www.merriam-webster.com/dictionary/road%20rash">Road
 </div>
 
 - [Cucumber In Practice](#cucumber-in-practice)
-  * [ScalaTest](#scalatest)
-  * [Friction](#friction)
+    * [ScalaTest](#scalatest)
+    * [Friction](#friction)
+        + [Curse of Knowledge](#curse-of-knowledge)
+        + [Curse of Time](#curse-of-time)
 - [Practices](#practices)
-  * [Feature Files](#feature-files)
-    + [Two Hard Things](#two-hard-things)
-    + [Acceptance Testing](#acceptance-testing)
-    + [Definition of Ready & Done](#definition-of-ready---done)
+    * [Feature Files](#feature-files)
+        + [Two Hard Things](#two-hard-things)
+        + [Acceptance Testing](#acceptance-testing)
+        + [Definition of Ready & Done](#definition-of-ready---done)
+- [Primer](#primer)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -91,10 +95,14 @@ frustration. Why is this?
       1. involving developers, testers, product managers, etc. into the situation,
       2. requiring more files, requiring more configuration
    2. We need to
-      1. Create `.feature` files using [Gherkin] that define the various *scenarios* for our features
-      2. Create `step` packages in our tests (convention over configuration)
-      3. Create `step` classes for our *features* that define the behavioural tests
-      4. Use the same language, the same strings, in our *test* files as in our *feature* files
+      1. Create a Cucumber Test Runner class to guide tools like the `maven-surefire-plugin`, the JUnit 5 Framework,
+         etc.
+      2. Create `.feature` files using [Gherkin] that define the various *scenarios* for our features
+      3. Create `step` packages in our tests (convention over configuration)
+      4. Create `step` classes for our *features* that define the behavioural tests
+      5. Use the same language, the same strings, in our *test* files as in our *feature* files
+         - in software, this is always a risk in coordinating duplicate information/knowledge in multiple
+           places
 
 ## Friction
 
@@ -103,7 +111,29 @@ methodology. The friction is that, for the most part, the documentation on how t
 My more cynical thoughts are that this is deliberate so that people will pay for more Cucumber support.
 However, not only is the official [Cucumber Documentation] terrible, but generally everything I
 Googled is terrible as well, so my impression is that this is a cultural thing, that the culture of
-Cucumber does not place much value on documentation.
+Cucumber does not place much value on high quality documentation.
+
+Okay, moving past my initial emotional response to learning Cucumber, relative to most other Open Source
+projects, it's actually pretty average. It's not that the culture does not value documentation, it's
+more that they have evolved so fast, they have not had time to invest in it.
+
+### Curse of Knowledge
+
+> The [Curse of Knowledge] is a cognitive bias that occurs when an individual, who is communicating with other
+> individuals, assumes they have the background knowledge to understand. This bias is also called by some
+> authors the curse of expertise.
+
+In the majority of documentation I found on Cucumber, this bias is quite evident and manifests in a lot of missing
+context. From an emotional perspective, there was usually enough to make me interested, but usually not enough
+context to help me understand.
+
+See also [Elon Musk on Cognitive Bias](https://www.inc.com/jessica-stillman/elon-musk-cognitive-biases.html)
+
+### Curse of Time
+
+Many, perhaps most of the articles found via Google Search are out-of-date, leading to many false starts.
+Even more recent articles, contain out-of-date knowledge, as if people published examples based on out-of-date
+knowledge, without first testing to see if they actually worked.
 
 # Practices
 
@@ -154,3 +184,10 @@ This could be undertaken in the Code Review process, such as in a Pull-Request o
 
 Of course, in most cultures, especially start-ups, this is simply too much process to consider,
 but I included it here as a best practice.
+
+# Primer
+
+To Be Done...
+
+I will try to write what I consider is a good getting started explanation with necessary and sufficient
+context...
