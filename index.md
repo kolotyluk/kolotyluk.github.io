@@ -5,6 +5,11 @@
     to complete and render everything.
 -->
 
+[Assembly Line]: https://en.wikipedia.org/wiki/Assembly_line
+[Industrial Revolution]: https://en.wikipedia.org/wiki/Industrial_Revolution
+[Joel on Software]: https://books.google.ca/books?id=5qx2S47hnnEC
+[Joel Spolsky]: https://en.wikipedia.org/wiki/Joel_Spolsky
+
 Programming since 1970 in a Computer Mathematics class in Grade 8, I have had a love/hate relationship with
 computers, computer technology, and technology in general. Indeed, the more experience I get, the more
 opinions I get, but like wave physics, sometimes those opinions reinforce, and other times those opinions
@@ -17,14 +22,21 @@ my portfolio where people can see various examples of the kind of work I have do
 
 ## Opinions
 
-Years ago someone gave me the book
-[Joel on Software](https://books.google.ca/books?id=5qx2S47hnnEC),
-which I enjoyed tremendously. Not that I agreed with everything
-[Joel Spolsky](https://en.wikipedia.org/wiki/Joel_Spolsky)
-had to say, but he certainly challenged me to think about things. It is in the same spirit I share my
-opinions.
+Years ago someone gave me the book [Joel on Software], which I enjoyed tremendously. Not that I agreed with
+everything [Joel Spolsky] had to say, but he certainly challenged me to think about things, he told me things
+I did not know before, he inspired me to learn more about things I did not know. It is in the same spirit that
+I share my opinions.
 
-- [Are we Artisans or Hackers?](Artisan-or-Hacker.md)
+- [Are we Artisans or Hackers?](opinions/Artisans.md)
+  - When I started my career, I always saw my colleges and myself as artisans; we crafted software and
+    systems, often with a lot of aesthetic value. These days, with Agile practices, Scrum, Sprints, etc.,
+    It feels more like the [Industrial Revolution], or the Ford [Assembly Line].
+- [Cucumber in Practice](opinions/Cucumber.md)
+  - As a newbie using Cucumber and Behaviour Driven Development (BDD), this turned out to be harder than
+    I expected.
+- [Philosophy of Domain Driven Design](opinions/DDD%20Philosophy.md)
+  - Not what you think... this is more about how I personally fit DDD into the metaphysics, knowledge,
+    and other ideas in Philosophy.
 
 # Projects
 
