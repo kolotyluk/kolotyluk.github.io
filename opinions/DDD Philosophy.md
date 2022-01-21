@@ -2,7 +2,7 @@
 
 <div style="padding: 16pt;font-size: 16pt;font-family: 'Times New Roman', serif;">
 What I hope to convince you of is that there is solid philosophical support for DDD, and that
-cultures that adopt it successfully, will be better science-based engineering cultures.
+engineers who adopt it successfully, will be better science-based engineering cultures.
 </div>
 
 - [Domain Driven Design and Philosophy](#domain-driven-design-and-philosophy)

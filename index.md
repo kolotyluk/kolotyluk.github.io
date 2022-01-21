@@ -36,7 +36,7 @@ I share my opinions.
 - [Cucumber in Practice](opinions/Cucumber.md)
   - As a newbie using Cucumber and Behaviour Driven Development (BDD), this turned out to be harder than
     I expected.
-- [Philosophy of Domain Driven Design](opinions/DDD%20Philosophy.md)
+- [Philosophy of Domain Driven Design](opinions/DDD Philosophy.md)
   - Not what you think... this is more about how I personally fit DDD into the metaphysics, knowledge,
     and other ideas in Philosophy.
 
