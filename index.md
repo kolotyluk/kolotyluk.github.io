@@ -53,6 +53,15 @@ reality, and feel it is better to utilize reality than to deny it.
 
 # Projects
 
+## [home-lab](https://github.com/kolotyluk/home-lab)
+
+A place to 'play' with 'recreational' projects.
+
+### 45 Drives Home Lab
+
+A hardware project to build a home lab server for file and media services, and also an evironment to experiment
+with software projects.
+
 ## [loom-lab](https://github.com/kolotyluk/loom-lab)
 
 A place to learn about
